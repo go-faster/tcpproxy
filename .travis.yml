@@ -23,7 +23,7 @@ jobs:
         --vendor "David Anderson <dave@natulte.net>"
         --maintainer "David Anderson <dave@natulte.net>"
         --description "TLS SNI router"
-        --url "https://github.com/inetaf/tcpproxy/tree/master/cmd/tlsrouter"
+        --url "https://github.com/go-faster/tcpproxy/tree/master/cmd/tlsrouter"
         ./tlsrouter=/usr/bin/tlsrouter
         ./systemd/tlsrouter.service=/lib/systemd/system/tlsrouter.service
       deploy:
